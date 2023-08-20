@@ -1,0 +1,24 @@
+.youtube-iframe {
+    position: relative;
+    display: block;
+}
+.youtube-iframe img {
+    cursor: pointer;
+}
+.youtube-iframe:before {
+    position: absolute;
+    top: calc(50% - 25px);
+    z-index: 1;
+    left: calc(50% - 35px);
+    display: block;
+    background: #ce0707;
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    line-height: 50px;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+    content: "►";
+    color: #fff;
+}

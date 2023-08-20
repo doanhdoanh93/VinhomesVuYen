@@ -1,0 +1,79 @@
+.main-header {
+    border-bottom: 4px solid #DFBE75
+}
+
+.form-dk-footer .form-dk .form-group {
+    margin-bottom: 20px
+}
+
+.form-dk-footer .form-dk {
+    padding: 0
+}
+
+.form-dk-footer .form-dk .form-group .form-input::placeholder {
+    color: #fff
+}
+
+.list-logo-footer .img-fluid {
+    max-width: 50%
+}
+
+.list-logo-footer {
+    padding-bottom: 20px
+}
+
+#snackbar {
+    z-index: 999
+}
+
+.form-dk-footer .form-dk .submit .btn-waring:hover,
+.btn-bao-gia:hover {
+    box-shadow: 1px 1px 10px #d9e6d9bf
+}
+
+.main-header .main-menu-header .menu-header-desktop ul li:hover {
+    background: #09a6d9
+}
+
+.back_to_top_btn:hover {
+    color: #09a6d9;
+    background: #fff
+}
+
+.main-section-three .m-content {
+    max-width: 550px
+}
+
+@media (max-width: 1200px) {
+    .title-section-two {
+        font-size: 24px
+    }
+}
+
+@media (min-width: 992px) {
+    .ytp-large-play-button.ytp-button {
+        top: 40%
+    }
+
+    .main-footer .statistical-visit-online .cl_ffd {
+        display: block
+    }
+}
+
+@media (max-width: 991px) {
+    .footer_maps {
+        padding-top: 20px
+    }
+
+    .main-footer .title-footer {
+        text-align: center
+    }
+
+    .policy .main-policy {
+        padding-bottom: 0
+    }
+
+    .main-section-three .m-content {
+        max-width: 100%
+    }
+}
