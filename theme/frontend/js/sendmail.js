@@ -17,7 +17,10 @@ function sendMail(formId) {
       document.getElementById(`${formId}_name`).value = "";
       document.getElementById(`${formId}_phone`).value = "";
       document.getElementById(`${formId}_email`).value = "";
-      console.log("res: ", res);
+
+      $(document).ready(function onDocumentReady() {
+        toastr.success("Đăng ký thành công");
+      });
       $(".main-popup-regis").fadeOut(300);
     })
     .catch((err) => {
